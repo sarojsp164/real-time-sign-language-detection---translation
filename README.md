@@ -108,7 +108,11 @@ The model was trained on a custom dataset and achieved strong performance:
 - Training Accuracy: ~97%
 - Validation Accuracy: ~95%
 
-Training metrics and visualizations are available in the repository.
+<p align="center">
+  <img src="img/loss_curve.png" alt="Training vs Validation Accuracy and Loss" width="600"/>
+  <br>
+  <em>Figure 2 & 3: Training vs. Validation Accuracy and Loss Curves</em>
+</p>
 
 ---
 
@@ -118,6 +122,18 @@ Training metrics and visualizations are available in the repository.
 2. **Feature Extraction**: MediaPipe extracts 21 landmarks per hand (x, y, z coordinates)
 3. **Model Training**: Train the CNN-LSTM model on collected sequences
 4. **Real-time Prediction**: The trained model predicts gestures from live webcam feed
+
+<p align="center">
+  <img src="img/hand_landmarks.png" alt="MediaPipe Hand Landmarks" width="250"/>
+  <br>
+  <em>Figure 6: Real-time sign language gesture detection using MediaPipe landmarks</em>
+</p>
+
+<p align="center">
+  <img src="img/prediction_demo.png" alt="Sign Language Prediction" width="450"/>
+  <br>
+  <em>Figure 7: Predicted sign language gesture displayed as text after classification</em>
+</p>
 
 ---
 
@@ -145,25 +161,25 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This is an academic project. Feel free to fork and modify for your own use.
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational purposes as part of a Final Year Project.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-**Final Year Project - Data Science & Artificial Intelligence**
+**Final Year Project - Data Science & Artificial Intelligence** - Saroj Patil and Shaam N
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - MediaPipe by Google for hand tracking
 - TensorFlow/Keras for deep learning framework

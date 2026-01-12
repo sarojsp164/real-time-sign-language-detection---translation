@@ -100,3 +100,6 @@ data/
 # Training metrics and graphs (optional - keep if you want to showcase results)
 training_metrics*.json
 *.png
+
+# Allow images in img folder for README
+!img/
