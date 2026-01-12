@@ -1,4 +1,4 @@
-# Sign Language Translator 🤟
+# Sign Language Translator 
 
 > **Final Year Project - Data Science & Artificial Intelligence**
 
@@ -6,7 +6,7 @@ A real-time Sign Language to Text translation system using Deep Learning. This p
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project was developed as part of my **Final Year Project** for **Data Science and Artificial Intelligence**. The aim is to bridge the communication gap between sign language users and others by translating hand gestures into readable text in real-time.
 
@@ -18,7 +18,7 @@ The system uses computer vision and deep learning techniques to:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Custom Dataset Collection** - Easy-to-use data collection script for creating your own sign language dataset
 - **Deep Learning Model** - CNN-LSTM architecture for accurate gesture classification
@@ -28,7 +28,7 @@ The system uses computer vision and deep learning techniques to:
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 Sign-Language-Translator/
@@ -41,9 +41,6 @@ Sign-Language-Translator/
 ├── streamlit_app.py         # Streamlit web application
 ├── my_functions.py          # Helper functions
 ├── requirements.txt         # Python dependencies
-├── *.h5                     # Trained model files
-└── *.png                    # Training graphs and evaluation metrics
-```
 
 ---
 
@@ -62,7 +59,7 @@ Sign-Language-Translator/
 
 ---
 
-## 📊 Model Architecture
+## Model Architecture
 
 The model uses a **CNN-LSTM** hybrid architecture:
 - **Input**: Sequence of hand landmark coordinates (126 features per frame)
@@ -72,7 +69,7 @@ The model uses a **CNN-LSTM** hybrid architecture:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.8+

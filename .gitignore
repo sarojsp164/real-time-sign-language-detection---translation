@@ -86,8 +86,8 @@ ehthumbs.db
 Thumbs.db
 
 # Model files (large binary files - uncomment if you don't want to track them)
-# *.h5
-# *.keras
+*.h5
+*.keras
 
 # Dataset folder (large data files - uncomment if you don't want to upload data)
 data/
