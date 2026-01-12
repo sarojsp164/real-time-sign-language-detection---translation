@@ -111,7 +111,7 @@ The model was trained on a custom dataset and achieved strong performance:
 <p align="center">
   <img src="img/loss_curve.png" alt="Training vs Validation Accuracy and Loss" width="600"/>
   <br>
-  <em>Figure 2 & 3: Training vs. Validation Accuracy and Loss Curves</em>
+  <em> Training vs. Validation Accuracy and Loss Curves</em>
 </p>
 
 ---
@@ -126,13 +126,13 @@ The model was trained on a custom dataset and achieved strong performance:
 <p align="center">
   <img src="img/hand_landmarks.png" alt="MediaPipe Hand Landmarks" width="250"/>
   <br>
-  <em>Figure 6: Real-time sign language gesture detection using MediaPipe landmarks</em>
+  <em> Real-time sign language gesture detection using MediaPipe landmarks</em>
 </p>
 
 <p align="center">
   <img src="img/prediction_demo.png" alt="Sign Language Prediction" width="450"/>
   <br>
-  <em>Figure 7: Predicted sign language gesture displayed as text after classification</em>
+  <em>Predicted sign language gesture displayed as text after classification</em>
 </p>
 
 ---
